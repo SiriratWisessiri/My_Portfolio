@@ -7,17 +7,18 @@
     <link rel="stylesheet" href="https://fonts.googleapis.com/icon?family=Material+Icons">
     <link href="https://fonts.googleapis.com/css2?family=Waterfall&display=swap" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
 
     <link rel="stylesheet" href="style.css">
     <script src="main.js" defer></script>
     <title>Sirirat Wisessiri Portfolio</title>
 </head>
-<body>
-    <section class="header">
+<body>  
+<!--Header section-->
+    <section id="top" class="header">
         <nav class="navBar">
             <div class="brandTitle">
                 <a href="#">Siri</a>
-                
                 <div class="socials">
                     <a href="https://github.com/SiriratWisessiri" target="_blank">
                         <svg xmlns="http://www.w3.org/2000/svg" fill="white" width="25" height="25" viewBox="0 0 24 24"><path d="M19 0h-14c-2.761 0-5 2.239-5 5v14c0 2.761 2.239 5 5 5h14c2.762 0 5-2.239 5-5v-14c0-2.761-2.238-5-5-5zm-4.466 19.59c-.405.078-.534-.171-.534-.384v-2.195c0-.747-.262-1.233-.55-1.481 1.782-.198 3.654-.875 3.654-3.947 0-.874-.312-1.588-.823-2.147.082-.202.356-1.016-.079-2.117 0 0-.671-.215-2.198.82-.64-.18-1.324-.267-2.004-.271-.68.003-1.364.091-2.003.269-1.528-1.035-2.2-.82-2.2-.82-.434 1.102-.16 1.915-.077 2.118-.512.56-.824 1.273-.824 2.147 0 3.064 1.867 3.751 3.645 3.954-.229.2-.436.552-.508 1.07-.457.204-1.614.557-2.328-.666 0 0-.423-.768-1.227-.825 0 0-.78-.01-.055.487 0 0 .525.246.889 1.17 0 0 .463 1.428 2.688.944v1.489c0 .211-.129.459-.528.385-3.18-1.057-5.472-4.056-5.472-7.59 0-4.419 3.582-8 8-8s8 3.581 8 8c0 3.533-2.289 6.531-5.466 7.59z"/></svg>
@@ -53,18 +54,19 @@
             </div>
             <a href="#aboutMe" class="button">About Me</a>
         </div>
-        
     </section>
+<!--End Header section-->
+<!-- About me section -->
     <section id="aboutMe" class="info">
         <div class="aboutMe">
             <h2>About Me</h2>
             <!-- <p>Hello My name is Siri. I am a junior web developer.</p> -->
-            <p>While I was working in financial service and had a use of different programs and technologies,
+            <p>While I was working in financial services and had a use of different programs and technologies,
             I always been impressed and curious of how the programs been developed to assisting in 
-            making people's every days life easier.<p>
+            making people's everyday lives easier.<p>
             <p>With my growing interest in programming, I started to learn how to code 
-            and join the Web Developer course with Generation Australia.</p> 
-            <p>Web development has offered me an engaging challenge to continually learn and improve my skills in creating high quality web page.
+            and joined the Web Developer course with Generation Australia.</p> 
+            <p>Web development has offered me an engaging challenge to continually learn and improve my skills in creating high quality web pages.
             </p>
         </div>
         <div class="skills">
@@ -79,85 +81,82 @@
                 <li>Git</li>
             </ul>   
         </div>
+        <div class="arrow">
+            <a href="#top" title="To the top"><span class="material-icons">arrow_upward</span></a>
+        </div>
     </section>
+<!-- End About me section -->
+<!-- Project card section -->
     <section id="project" class="project-section">
-        <h2>Project</h2>
+        <h2>Projects</h2>
         <div class="project-container">     
             <div class="project-card">
                 <img src="./img/Project1.PNG" alt="project1">
-                <!-- <div class="card-img1">
-                </div> -->
                 <h3>Vintage Car Hire</h3>
                 <p>Landing page built with HTML and CSS, layout with CSS Flex box </p>
-                <hr/>
                 <div class="view">
-                <a href="https://siriratwisessiri.github.io/My_Vintage_Car/" target="_blank"><p class="view-here">View here</p></a>
-                <a href="https://github.com/SiriratWisessiri/My_Vintage_Car.git" target="_blank"><p class="view-here">GitHub</p></a>
+                    <hr/>
+                    <a href="https://siriratwisessiri.github.io/My_Vintage_Car/" target="_blank"><p class="view-here">View here</p></a>
+                    <a href="https://github.com/SiriratWisessiri/My_Vintage_Car.git" target="_blank"><p class="view-here">GitHub</p></a>
                 </div>
             </div>
             <div class="project-card">
                 <img src="./img/Project2.PNG" alt="project2">
-                <!-- <div class="card-img2">
-                </div> -->
-                <h3>Landing page</h3>
-                <p>Built with HTML and CSS, layout with CSS Grid.</p>
-                <hr class="line"/>
+                <h3>Gym Web Page</h3>
+                <p>Landing page built with HTML and CSS, layout with CSS Grid.</p>
                 <div class="view">
-                <a href="#" target="_blank"><p class="view-here">View here</p></a>
-                <a href="#" target="_blank"><p class="view-here">GitHub</p></a>
+                    <hr/>
+                    <a href="https://siriratwisessiri.github.io/My_Gym_Web/" target="_blank"><p class="view-here">View here</p></a>
+                    <a href="https://github.com/SiriratWisessiri/My_Gym_Web.git" target="_blank"><p class="view-here">GitHub</p></a>
                 </div>
             </div>
             <div class="project-card">
                 <img src="./img/Project3.PNG" alt="project3">
-                <!-- <div class="card-img3">
-                </div> -->
                 <h3>Task List Application</h3>
                 <p>Functional and responsive application built with HTML, CSS, Bootstrap and JavaScript</p>
-                <hr/>
                 <div class="view" >
-                <a href="https://siriratwisessiri.github.io/TaskList_App/" target="_blank"><p class="view-here">View here</p></a>
-                <a href="https://github.com/SiriratWisessiri/TaskList_App.git" target="_blank"><p class="view-here">GitHub</p></a>
+                    <hr/>
+                    <a href="https://siriratwisessiri.github.io/TaskList_App/" target="_blank"><p class="view-here">View here</p></a>
+                    <a href="https://github.com/SiriratWisessiri/TaskList_App.git" target="_blank"><p class="view-here">GitHub</p></a>
                 </div>
             </div>
             <div class="project-card">
                 <img src="./img/Project4.PNG" alt="project4">
-                <!-- <div class="card-img4">
-                </div>  -->
                 <h3>Quiz Application</h3>
                 <p>Functional and responsive application built with HTML, CSS, Bootstrap and JavaScript</p>
-                <hr/>
                 <div class="view">
-                <a href="https://siriratwisessiri.github.io/My_Quiz_App/" target="_blank"><p class="view-here">View here</p></a>
-                <a href="https://github.com/SiriratWisessiri/My_Quiz_App.git" target="_blank"><p class="view-here">GitHub</p></a>
+                    <hr/>
+                    <a href="https://siriratwisessiri.github.io/My_Quiz_App/" target="_blank"><p class="view-here">View here</p></a>
+                    <a href="https://github.com/SiriratWisessiri/My_Quiz_App.git" target="_blank"><p class="view-here">GitHub</p></a>
                 </div>
             </div>
         </div>
     </section>
-    <!-- End Project -->
-    <!-- contact -->
+<!-- End Project card section --> -->
+<!-- Contact section -->
     <footer id="contact" >
         <div class="contact">
         <h2>Contact Me</h2>
-        <p>Please contact me directly or kindly submit the below form</p>
+        <p>Please contact me directly or kindly submit the form below</p>
         </div>
         <div class="contact-details">  
             <ul>
                 <li>My name: Sirirat Wisessiri</li>
                 <li>Email: <a href = "mailto: sirirat.wisessiri@gmail.com">sirirat.wisessiri@gmail.com</a></li>
-                <li>Contat number: 040-2672-506</li>
+                <li>Contact number: 040-2672-506</li>
             </ul>
         </div>
         
         <div class="form">
             <form target="_blank" action="https://formsubmit.co/70c076228f1cb9c808028667a3dfc7f7" method="POST">
             <label for="name">Name</label>
-            <input type="text" id="name" name="name" placeholder="name">
+            <input type="text" id="name" name="name" placeholder="Your name">
         
             <label for="email">Email address</label>
-            <input type="email" id="email" name="email" placeholder="email address">
+            <input type="email" id="email" name="email" placeholder="Your email address">
 
             <label for="phone">Contact number</label>
-            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="contact number">
+            <input type="tel" id="phone" name="phone" pattern="[0-9]{10}" placeholder="Your contact number">
       
             <label for="subject">Note</label>
             <textarea id="subject" name="subject" placeholder="Please leave your note" style="height:200px"></textarea>
@@ -166,5 +165,6 @@
         </form>
         </div>
     </footer>
+<!-- End Contact section -->
 </body>
 </html>
