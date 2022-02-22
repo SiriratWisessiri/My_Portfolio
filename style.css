@@ -97,7 +97,7 @@ a {
     color: white;
     width: 100vw;
     height: 100vh;
-    background: url(/img/port1.jpg);
+    background: url(./img/port1.jpg);
     background-size: cover;
     background-position: center;
     padding-bottom: 5rem;

@@ -1,6 +1,6 @@
 //let try to wrap this in the function
 //define array of text we want it to appear
-const texts = ['a Junior Web Developer', 'Eager to learn'];
+const texts = ['a Junior Web Developer', 'eager to learn'];
 //this count will go to each word one by one
 let count = 0;
 //this to check which index of word we are using
