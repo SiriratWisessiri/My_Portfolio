@@ -100,13 +100,17 @@ a {
     background: url(./img/port1.jpg);
     background-size: cover;
     background-position: center;
-    padding-bottom: 5rem;
+    padding-bottom: 15rem;
 }
 
 /* intro and typing effect section */
+#intro{
+    padding-top: 10rem;
+}
 .intro-piece{
-  padding: 10rem 2rem;
-  font-size: 5vmin;
+  padding: 0rem 2rem;
+  padding-top: 5px;
+  font-size: 5.5vmin;
   color: white;
 }
 
@@ -394,7 +398,7 @@ input[type=submit]:hover{
 }
 
 /* Media query */
-@media (max-width: 600px){
+@media (max-width: 700px){
     .toggleButton {
         display: flex;
     }
@@ -445,6 +449,11 @@ input[type=submit]:hover{
     .contact-details li{
         font-size: 1rem;
     }
+
+    #intro {
+        padding-top: 3rem;
+    } 
+
 }
 
 
