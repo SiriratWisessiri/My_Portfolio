@@ -20,7 +20,17 @@ li {
 
 .arrow {
     visibility: hidden;
+    box-shadow: 3px 3px 3px rgba(73, 26, 26, 0.2);
 }
+
+.arrow:hover {
+    transition: transform .5s ease;
+    transform: scale(1.1);
+}
+
+/* .material-icons:hover{
+    color: #e05017;
+} */
 
 /* navigation bar*/
 .navBar {
@@ -425,7 +435,7 @@ input[type=submit]:hover {
     .material-icons {
         vertical-align: middle;
         font-size: 25px;
-        color: #372525;
+        color: whitesmoke;
     }
 
     .arrow {
