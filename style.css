@@ -236,7 +236,6 @@ a {
     border-radius: 10px;
     background-color: #e25822;
     color: white;
-    transition: transform .2s;
     position: relative;
     /* flex-shrink: 0;
     flex-wrap: wrap; */
@@ -244,6 +243,7 @@ a {
 
 .project-card:hover {
     cursor: pointer;
+    transition: transform .2s ease;
     transform: scale(1.05); 
 }
 .project-card p {
