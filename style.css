@@ -53,11 +53,25 @@ li {
     font-size: 3rem;
 }
 
+.brandTitle a:hover{
+    color:#e25822;
+    text-shadow: 2px 2px 2px orangered;
+}
+
+.brandTitle:hover{
+    text-shadow: 2px 2px 2px orangered;
+}
+
 .socials {
     display: inline-flex;
 }
 .socials a {
     margin: 0px 5px;
+}
+
+.socials a:hover {
+    transition: transform .2s ease;
+    transform: scale(1.10);
 }
 
 .navLink ul {
@@ -83,6 +97,9 @@ a {
 
 .navLink li a:hover {
     color: #e25822 ;
+    /* transition: transform .2s ease; */
+    /* transform: scale(1.10);  */
+    /* text-shadow: 2px 2px 2px orangered; */
 } 
 
 .toggleButton {
@@ -99,8 +116,13 @@ a {
 .toggleButton .bar {
     height: 3px;
     width: 100%;
-    background-color:#e25822;
+    background-color: #e25822;
     border-radius: 10px;
+}
+
+.toggleButton:hover{
+    transition: transform .2s ease;
+    transform: scale(1.09);
 }
 
 /* End navigation bar*/
@@ -179,6 +201,7 @@ a {
 }
 
 /* End header section */
+
 /* infor section */
 .info {
     font-size: 1.5rem;
@@ -385,6 +408,7 @@ input[type=submit]:hover {
     .navLink {
         display: none;
         width: 100%;
+        
     }
 
     .navBar {
@@ -395,7 +419,7 @@ input[type=submit]:hover {
 
     .navLink ul {
         flex-direction: column;
-        width: 100%; 
+        width: 100%;
     }
 
     .navLink li {
@@ -408,9 +432,10 @@ input[type=submit]:hover {
 
     .navLink li a:hover {
         color:#e25822;
-        background-color: #372525;
+        /* background-color: #372525; */
         width: 100%;
     }
+
     .navLink.active {
         display: flex;
     }
